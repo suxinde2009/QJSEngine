@@ -1,0 +1,16 @@
+PODS:
+  - QJSEngine (0.0.1)
+
+DEPENDENCIES:
+  - QJSEngine (from `./../`)
+
+EXTERNAL SOURCES:
+  QJSEngine:
+    :path: "./../"
+
+SPEC CHECKSUMS:
+  QJSEngine: 9d9d171165ad59d89134ec97693a385a8caafc78
+
+PODFILE CHECKSUM: ba3833753fd8e342fae9bcc52627b92b22573411
+
+COCOAPODS: 1.16.2

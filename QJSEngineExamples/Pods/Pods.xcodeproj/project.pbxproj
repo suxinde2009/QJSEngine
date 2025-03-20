@@ -1,0 +1,1130 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C9CCFA75968A4C01D5B161C7B43D1A5 /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D93882C5ACA59C24E2172067A185944 /* list.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D0840B54E4D2128E3959B8CFD0283FC /* QJSContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4A9431A02FE6D98DE1A1B78B3B7AC6 /* QJSContext.m */; };
+		0D7A1132CE70A9F8B57D34C783082ADF /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C980E6CF3D479EE6E6D200E7C39564 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-dummy.m */; };
+		132AA8F308026627E368B6538BFBE823 /* libbf.h in Headers */ = {isa = PBXBuildFile; fileRef = 513D1AD398E5DC9FDEF0022EFD774BDF /* libbf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A8E6E1F11D9C55AA700B094E17B5B38 /* unicode_gen_def.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B69336E89D4DA262F9925A73A0C7D7 /* unicode_gen_def.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2706DF9FBB23486C7B12FFD321592883 /* libregexp-opcode.h in Headers */ = {isa = PBXBuildFile; fileRef = BA886ED7225D72FB6739CEEED4FB21DB /* libregexp-opcode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D61CD6FA1A7321D18AB48D80FD750A1 /* cutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 4010CB96BBCF259A34DBB126495D9575 /* cutils.c */; };
+		2DD439888B00A2268C19FB20B9E84487 /* libunicode.c in Sources */ = {isa = PBXBuildFile; fileRef = DA54A50E1254409484C5491BEE619C22 /* libunicode.c */; };
+		380CBD594C3B7C08F2350266EA0357DE /* quickjs.h in Headers */ = {isa = PBXBuildFile; fileRef = 33EB48E3E22B3F5A3BC8D8E9C978E8FD /* quickjs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47C18CF527ED03D7BF29F11384E5B55A /* quickjs-libc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B8477B7A7BC56E13CEA5E1E5BEC7CCE /* quickjs-libc.c */; };
+		4C13A3D04200BF125FD2E45F23AEAF24 /* QJSEngine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DCB68724062A52A41C98B0F434DCE12 /* QJSEngine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C639D6532D65166571BA7F71BF273EC /* QJSRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF2ACECDB901756444EDFBB14CA23FC /* QJSRuntime.m */; };
+		4E95E3F6AE1A45C893EED3212E0A9E21 /* QJSConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6021EDBB275127B8683AD5FE34F84FEA /* QJSConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F8089D2DE4FFB2C25519E234509BEC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		57FD3DCC7FEB81495DB11DB0021960CC /* cutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1481A098481038729CFE2D85CA955524 /* cutils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60C1B2F8CFE5A59B6307563951371157 /* libunicode-table.h in Headers */ = {isa = PBXBuildFile; fileRef = D6BF9436A10469714CBCD503BA8B0648 /* libunicode-table.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62C525FC9DC143D639285D62E5A15FF0 /* quickjs-libc.h in Headers */ = {isa = PBXBuildFile; fileRef = E0063805F017FF77C62AA3C2072D11A1 /* quickjs-libc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A4B9DA04230F40C6949F41B1513D1D5 /* QJSEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 27FE59A3821620E15CE38A249B2D33DD /* QJSEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B0696AB0647A89EA5BABD403FD09119 /* QJSConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A718EDEB94ACD7D3CEEF70535AE0271C /* QJSConfiguration.m */; };
+		6F6608E2CE3C25B2D4744C9E738C2833 /* libunicode.h in Headers */ = {isa = PBXBuildFile; fileRef = 22AABB0B49564C665DBFE3E9D70AB527 /* libunicode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7129D1C705C87857056D38007C41C1BE /* quickjs-opcode.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A5451A3F8637139D1DD22F5C608C3F /* quickjs-opcode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		725564AB312F2A02B358043AEDBE9BED /* Pods-QJSEngineExamplesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6228C07BB8B760BFCE428B3AF98DF652 /* Pods-QJSEngineExamplesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75060E7B18645133AC7159ACBC2C8C09 /* QJSContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DC06DF513B55792A130C5B5C7FB62B /* QJSContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75AF0F4A9F6BDA5481FFA1D54F95F766 /* Pods-QJSEngineExamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28893B6A7ABF6BD9D784BD1BB8DA475E /* Pods-QJSEngineExamples-dummy.m */; };
+		78B2262CA597198B149015B84ECA03F2 /* Pods-QJSEngineExamplesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A7E6A08350EAB98CAB8C8308B8C7F3 /* Pods-QJSEngineExamplesTests-dummy.m */; };
+		8283F0077F7D4BAB4810FB4390AF297C /* libregexp.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AE477E5391F805A961AB0D1B8D89677 /* libregexp.c */; };
+		A6A4F441A5C308A57EA13CE479710F3F /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA79D60FB65792197D5A8E6A0CA7ADD /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE9F47978F3DB5512B32EE50832E78CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		B100A148B4547CA0817813189C0A9345 /* libbf.c in Sources */ = {isa = PBXBuildFile; fileRef = D26A052EC1E8CA728A05B6F680D84E3A /* libbf.c */; };
+		C0CAB05740CBC2779328EF27EFC49836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C0F8F15DD7DB24BC79919B8D3E4186BC /* QJSRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC4B4B48D09E7C763185A51CDC3F2B3 /* QJSRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9DDB3B7ED97F7F93E613CFF28959AF /* quickjs-atom.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F11EE83012A4C6BDE85CC1F5B2BF777 /* quickjs-atom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC49DFD91A2DA7DE9942413B1E93E116 /* QJSEngine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C6C26823310AA2EF6E7DDC6AE6B067 /* QJSEngine-dummy.m */; };
+		E4F7C4651593383C827063BA9F0670B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		EA1344B3AF7CB598535AF4409E29435B /* libregexp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC6B4D3AC1EF5D868C353D549531A26 /* libregexp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3F45687F3767980D558D9B6C2F9DFDC /* Pods-QJSEngineExamples-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CC43C7F93E72C52466E658EED26014 /* Pods-QJSEngineExamples-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F56162A63198E30BCDA302AFB1BF39FC /* quickjs.c in Sources */ = {isa = PBXBuildFile; fileRef = 3083AF7DEAF98C05524AC1B3F88556B1 /* quickjs.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A20041731DF89A239E034BD128A0BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36B5AC78ECB1E54543FEF8894F0CBC0;
+			remoteInfo = QJSEngine;
+		};
+		7FA15DEFC7B3FCE8D104D93673CC7B06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36B5AC78ECB1E54543FEF8894F0CBC0;
+			remoteInfo = QJSEngine;
+		};
+		B30D7A8A34FF2F33E66F830105D9B2DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36B5AC78ECB1E54543FEF8894F0CBC0;
+			remoteInfo = QJSEngine;
+		};
+		EDC1453D34B28EEA9604E5F995DA76E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0ADFC45855BA501C341271ACF74FED;
+			remoteInfo = "Pods-QJSEngineExamples";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C980E6CF3D479EE6E6D200E7C39564 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QJSEngineExamples-QJSEngineExamplesUITests-dummy.m"; sourceTree = "<group>"; };
+		04D5ED2D5F43B56AC4E650566D251F65 /* QJSEngine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QJSEngine-prefix.pch"; sourceTree = "<group>"; };
+		08131779C26D195949239F737D519FCA /* QJSEngine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QJSEngine-Info.plist"; sourceTree = "<group>"; };
+		0BF2ACECDB901756444EDFBB14CA23FC /* QJSRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QJSRuntime.m; sourceTree = "<group>"; };
+		0EC6B4D3AC1EF5D868C353D549531A26 /* libregexp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = libregexp.h; sourceTree = "<group>"; };
+		12A6147ACC73EA5F596E9456191BD4CA /* Pods-QJSEngineExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QJSEngineExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		1481A098481038729CFE2D85CA955524 /* cutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cutils.h; sourceTree = "<group>"; };
+		1499BCEC45F8632016A82BFD30938EEF /* Pods-QJSEngineExamplesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QJSEngineExamplesTests-frameworks.sh"; sourceTree = "<group>"; };
+		15F3852408EA71FDD47B53126FB713E6 /* Pods-QJSEngineExamples-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QJSEngineExamples-acknowledgements.markdown"; sourceTree = "<group>"; };
+		191020F2DE59DA0D4D81A0C834714E15 /* Pods-QJSEngineExamples */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QJSEngineExamples"; path = Pods_QJSEngineExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8477B7A7BC56E13CEA5E1E5BEC7CCE /* quickjs-libc.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "quickjs-libc.c"; sourceTree = "<group>"; };
+		1BD95F9BDC4B2DA7B96DE12DC8A3AA97 /* Pods-QJSEngineExamplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QJSEngineExamplesTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E8ADC5EEB9807BD4870452FEF7B3508 /* Pods-QJSEngineExamples.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QJSEngineExamples.modulemap"; sourceTree = "<group>"; };
+		22AABB0B49564C665DBFE3E9D70AB527 /* libunicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = libunicode.h; sourceTree = "<group>"; };
+		22CD7C459EF5CA08AB3ECD21325A4F0B /* QJSEngine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QJSEngine.modulemap; sourceTree = "<group>"; };
+		27FE59A3821620E15CE38A249B2D33DD /* QJSEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QJSEngine.h; path = Source/QJSEngine.h; sourceTree = "<group>"; };
+		28893B6A7ABF6BD9D784BD1BB8DA475E /* Pods-QJSEngineExamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QJSEngineExamples-dummy.m"; sourceTree = "<group>"; };
+		2A4DB122820F20B96260868793C1C8A9 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QJSEngineExamples-QJSEngineExamplesUITests-Info.plist"; sourceTree = "<group>"; };
+		3083AF7DEAF98C05524AC1B3F88556B1 /* quickjs.c */ = {isa = PBXFileReference; includeInIndex = 1; path = quickjs.c; sourceTree = "<group>"; };
+		33EB48E3E22B3F5A3BC8D8E9C978E8FD /* quickjs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = quickjs.h; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39142CCBEA11C60C2D0421EF3DEA096B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3F11EE83012A4C6BDE85CC1F5B2BF777 /* quickjs-atom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "quickjs-atom.h"; sourceTree = "<group>"; };
+		4010CB96BBCF259A34DBB126495D9575 /* cutils.c */ = {isa = PBXFileReference; includeInIndex = 1; path = cutils.c; sourceTree = "<group>"; };
+		427F7AE1A97643567C880B60BBA93FB9 /* Pods-QJSEngineExamplesTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QJSEngineExamplesTests-Info.plist"; sourceTree = "<group>"; };
+		4A899BE6D01334E904CC989AD27368D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		50A660468A5A1656108ADE6D0269C014 /* Pods-QJSEngineExamples-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QJSEngineExamples-frameworks.sh"; sourceTree = "<group>"; };
+		513D1AD398E5DC9FDEF0022EFD774BDF /* libbf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = libbf.h; sourceTree = "<group>"; };
+		51577FAFFDF0E277F66C07A44C12DF8D /* QJSEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QJSEngine.release.xcconfig; sourceTree = "<group>"; };
+		5AE477E5391F805A961AB0D1B8D89677 /* libregexp.c */ = {isa = PBXFileReference; includeInIndex = 1; path = libregexp.c; sourceTree = "<group>"; };
+		6021EDBB275127B8683AD5FE34F84FEA /* QJSConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QJSConfiguration.h; sourceTree = "<group>"; };
+		6228C07BB8B760BFCE428B3AF98DF652 /* Pods-QJSEngineExamplesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QJSEngineExamplesTests-umbrella.h"; sourceTree = "<group>"; };
+		65A7E6A08350EAB98CAB8C8308B8C7F3 /* Pods-QJSEngineExamplesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QJSEngineExamplesTests-dummy.m"; sourceTree = "<group>"; };
+		6632D36F8D7665F6DA10E29B0255A310 /* Pods-QJSEngineExamplesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QJSEngineExamplesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CFB492B5B0A6D4D694C90E2B4BB398C /* Pods-QJSEngineExamples-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QJSEngineExamples-Info.plist"; sourceTree = "<group>"; };
+		6DCB68724062A52A41C98B0F434DCE12 /* QJSEngine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QJSEngine-umbrella.h"; sourceTree = "<group>"; };
+		79DC06DF513B55792A130C5B5C7FB62B /* QJSContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QJSContext.h; sourceTree = "<group>"; };
+		7A7D7CA4E19D6657E81FA1B6AFA29EDA /* Pods-QJSEngineExamples-QJSEngineExamplesUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QJSEngineExamples-QJSEngineExamplesUITests"; path = Pods_QJSEngineExamples_QJSEngineExamplesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4A9431A02FE6D98DE1A1B78B3B7AC6 /* QJSContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QJSContext.m; sourceTree = "<group>"; };
+		8DC4B4B48D09E7C763185A51CDC3F2B3 /* QJSRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QJSRuntime.h; sourceTree = "<group>"; };
+		968C9ED69F8B5F8F2E531C5058C14EDB /* QJSEngine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QJSEngine.debug.xcconfig; sourceTree = "<group>"; };
+		97B69336E89D4DA262F9925A73A0C7D7 /* unicode_gen_def.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = unicode_gen_def.h; sourceTree = "<group>"; };
+		98659A1123E707019666474B91B9DE64 /* QJSEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QJSEngine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CA79D60FB65792197D5A8E6A0CA7ADD /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QJSEngineExamples-QJSEngineExamplesUITests-umbrella.h"; sourceTree = "<group>"; };
+		9D93882C5ACA59C24E2172067A185944 /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4CC43C7F93E72C52466E658EED26014 /* Pods-QJSEngineExamples-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QJSEngineExamples-umbrella.h"; sourceTree = "<group>"; };
+		A718EDEB94ACD7D3CEEF70535AE0271C /* QJSConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QJSConfiguration.m; sourceTree = "<group>"; };
+		A7EC9FFCCD613285DF3D1779742052C3 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QJSEngineExamples-QJSEngineExamplesUITests.modulemap"; sourceTree = "<group>"; };
+		ACDF402C15D97E90D73B446D801B159C /* Pods-QJSEngineExamplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QJSEngineExamplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0F56729481DA880CC420E9A94540A0 /* QJSEngine */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QJSEngine; path = QJSEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A5451A3F8637139D1DD22F5C608C3F /* quickjs-opcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "quickjs-opcode.h"; sourceTree = "<group>"; };
+		BA886ED7225D72FB6739CEEED4FB21DB /* libregexp-opcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libregexp-opcode.h"; sourceTree = "<group>"; };
+		BCD106AE1F7E0CD34B6C37C2804C9E9C /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QJSEngineExamples-QJSEngineExamplesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCDBCAF30C8A9F473C4B5714CB3621A7 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QJSEngineExamples-QJSEngineExamplesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3C6C26823310AA2EF6E7DDC6AE6B067 /* QJSEngine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QJSEngine-dummy.m"; sourceTree = "<group>"; };
+		CADB326DD7E2D91DD6E47BFA029F9E5C /* Pods-QJSEngineExamplesTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QJSEngineExamplesTests"; path = Pods_QJSEngineExamplesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF24C99619E243C34EC830D46B61CF83 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QJSEngineExamples-QJSEngineExamplesUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D26A052EC1E8CA728A05B6F680D84E3A /* libbf.c */ = {isa = PBXFileReference; includeInIndex = 1; path = libbf.c; sourceTree = "<group>"; };
+		D6BF9436A10469714CBCD503BA8B0648 /* libunicode-table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libunicode-table.h"; sourceTree = "<group>"; };
+		D9E22004F06F469E684127A56A987CAA /* Pods-QJSEngineExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QJSEngineExamples.release.xcconfig"; sourceTree = "<group>"; };
+		DA54A50E1254409484C5491BEE619C22 /* libunicode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = libunicode.c; sourceTree = "<group>"; };
+		E0063805F017FF77C62AA3C2072D11A1 /* quickjs-libc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "quickjs-libc.h"; sourceTree = "<group>"; };
+		E34BB4FB69CDD0831FD70F8536D61A72 /* Pods-QJSEngineExamplesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QJSEngineExamplesTests.modulemap"; sourceTree = "<group>"; };
+		E5992F6C5C505A0652CB7784EA2EFFD7 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QJSEngineExamples-QJSEngineExamplesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6AA7EA32F3A7FEED26C57779551828D /* Pods-QJSEngineExamplesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QJSEngineExamplesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8B0E5DE246E4D3EC917F3A5C1EC109D /* Pods-QJSEngineExamples-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QJSEngineExamples-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF831BF6C88DB2EEBFE81BDA36C9C778 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QJSEngineExamples-QJSEngineExamplesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4D9933FB7836BF9FF862CA280C75B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F7C4651593383C827063BA9F0670B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306BCA7E7C020785F72F07FB7307542A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8089D2DE4FFB2C25519E234509BEC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7225B199CCF930A90C0FA3B83AFE596F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9F47978F3DB5512B32EE50832E78CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E698B3916317098364BA4C7E392AE9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CAB05740CBC2779328EF27EFC49836 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F52DE28A2627AE92B145C8A110E933C /* Pods-QJSEngineExamplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E34BB4FB69CDD0831FD70F8536D61A72 /* Pods-QJSEngineExamplesTests.modulemap */,
+				F6AA7EA32F3A7FEED26C57779551828D /* Pods-QJSEngineExamplesTests-acknowledgements.markdown */,
+				6632D36F8D7665F6DA10E29B0255A310 /* Pods-QJSEngineExamplesTests-acknowledgements.plist */,
+				65A7E6A08350EAB98CAB8C8308B8C7F3 /* Pods-QJSEngineExamplesTests-dummy.m */,
+				1499BCEC45F8632016A82BFD30938EEF /* Pods-QJSEngineExamplesTests-frameworks.sh */,
+				427F7AE1A97643567C880B60BBA93FB9 /* Pods-QJSEngineExamplesTests-Info.plist */,
+				6228C07BB8B760BFCE428B3AF98DF652 /* Pods-QJSEngineExamplesTests-umbrella.h */,
+				ACDF402C15D97E90D73B446D801B159C /* Pods-QJSEngineExamplesTests.debug.xcconfig */,
+				1BD95F9BDC4B2DA7B96DE12DC8A3AA97 /* Pods-QJSEngineExamplesTests.release.xcconfig */,
+			);
+			name = "Pods-QJSEngineExamplesTests";
+			path = "Target Support Files/Pods-QJSEngineExamplesTests";
+			sourceTree = "<group>";
+		};
+		24B3A003CAC02C50E32ED206F774815F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22CD7C459EF5CA08AB3ECD21325A4F0B /* QJSEngine.modulemap */,
+				C3C6C26823310AA2EF6E7DDC6AE6B067 /* QJSEngine-dummy.m */,
+				08131779C26D195949239F737D519FCA /* QJSEngine-Info.plist */,
+				04D5ED2D5F43B56AC4E650566D251F65 /* QJSEngine-prefix.pch */,
+				6DCB68724062A52A41C98B0F434DCE12 /* QJSEngine-umbrella.h */,
+				968C9ED69F8B5F8F2E531C5058C14EDB /* QJSEngine.debug.xcconfig */,
+				51577FAFFDF0E277F66C07A44C12DF8D /* QJSEngine.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "QJSEngineExamples/Pods/Target Support Files/QJSEngine";
+			sourceTree = "<group>";
+		};
+		38B76C053DEF9A006E68F6960C7D8BF8 /* QuickJS */ = {
+			isa = PBXGroup;
+			children = (
+				4010CB96BBCF259A34DBB126495D9575 /* cutils.c */,
+				1481A098481038729CFE2D85CA955524 /* cutils.h */,
+				D26A052EC1E8CA728A05B6F680D84E3A /* libbf.c */,
+				513D1AD398E5DC9FDEF0022EFD774BDF /* libbf.h */,
+				5AE477E5391F805A961AB0D1B8D89677 /* libregexp.c */,
+				0EC6B4D3AC1EF5D868C353D549531A26 /* libregexp.h */,
+				BA886ED7225D72FB6739CEEED4FB21DB /* libregexp-opcode.h */,
+				DA54A50E1254409484C5491BEE619C22 /* libunicode.c */,
+				22AABB0B49564C665DBFE3E9D70AB527 /* libunicode.h */,
+				D6BF9436A10469714CBCD503BA8B0648 /* libunicode-table.h */,
+				9D93882C5ACA59C24E2172067A185944 /* list.h */,
+				3083AF7DEAF98C05524AC1B3F88556B1 /* quickjs.c */,
+				33EB48E3E22B3F5A3BC8D8E9C978E8FD /* quickjs.h */,
+				3F11EE83012A4C6BDE85CC1F5B2BF777 /* quickjs-atom.h */,
+				1B8477B7A7BC56E13CEA5E1E5BEC7CCE /* quickjs-libc.c */,
+				E0063805F017FF77C62AA3C2072D11A1 /* quickjs-libc.h */,
+				B2A5451A3F8637139D1DD22F5C608C3F /* quickjs-opcode.h */,
+				97B69336E89D4DA262F9925A73A0C7D7 /* unicode_gen_def.h */,
+			);
+			name = QuickJS;
+			path = Source/QuickJS;
+			sourceTree = "<group>";
+		};
+		495ABDDBDB1724B755F85EFC0E7AF6D9 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7EC9FFCCD613285DF3D1779742052C3 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.modulemap */,
+				FF831BF6C88DB2EEBFE81BDA36C9C778 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-acknowledgements.markdown */,
+				BCDBCAF30C8A9F473C4B5714CB3621A7 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-acknowledgements.plist */,
+				04C980E6CF3D479EE6E6D200E7C39564 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-dummy.m */,
+				CF24C99619E243C34EC830D46B61CF83 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-frameworks.sh */,
+				2A4DB122820F20B96260868793C1C8A9 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-Info.plist */,
+				9CA79D60FB65792197D5A8E6A0CA7ADD /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-umbrella.h */,
+				BCD106AE1F7E0CD34B6C37C2804C9E9C /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.debug.xcconfig */,
+				E5992F6C5C505A0652CB7784EA2EFFD7 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.release.xcconfig */,
+			);
+			name = "Pods-QJSEngineExamples-QJSEngineExamplesUITests";
+			path = "Target Support Files/Pods-QJSEngineExamples-QJSEngineExamplesUITests";
+			sourceTree = "<group>";
+		};
+		60D19053B026AAE229455DFCEC4C6FC3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				39142CCBEA11C60C2D0421EF3DEA096B /* LICENSE */,
+				98659A1123E707019666474B91B9DE64 /* QJSEngine.podspec */,
+				4A899BE6D01334E904CC989AD27368D6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7790FA4B9DEDC220BF35BD50C3D1DE15 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFF286B79565086AA93A55CEC0DB716C /* QJSEngine */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7A522D8B033BC05A2298B85E971647ED /* Pods-QJSEngineExamples */ = {
+			isa = PBXGroup;
+			children = (
+				1E8ADC5EEB9807BD4870452FEF7B3508 /* Pods-QJSEngineExamples.modulemap */,
+				15F3852408EA71FDD47B53126FB713E6 /* Pods-QJSEngineExamples-acknowledgements.markdown */,
+				F8B0E5DE246E4D3EC917F3A5C1EC109D /* Pods-QJSEngineExamples-acknowledgements.plist */,
+				28893B6A7ABF6BD9D784BD1BB8DA475E /* Pods-QJSEngineExamples-dummy.m */,
+				50A660468A5A1656108ADE6D0269C014 /* Pods-QJSEngineExamples-frameworks.sh */,
+				6CFB492B5B0A6D4D694C90E2B4BB398C /* Pods-QJSEngineExamples-Info.plist */,
+				A4CC43C7F93E72C52466E658EED26014 /* Pods-QJSEngineExamples-umbrella.h */,
+				12A6147ACC73EA5F596E9456191BD4CA /* Pods-QJSEngineExamples.debug.xcconfig */,
+				D9E22004F06F469E684127A56A987CAA /* Pods-QJSEngineExamples.release.xcconfig */,
+			);
+			name = "Pods-QJSEngineExamples";
+			path = "Target Support Files/Pods-QJSEngineExamples";
+			sourceTree = "<group>";
+		};
+		8EEB8BF288F0226AF69E98AC18B77E40 /* QJSEngine */ = {
+			isa = PBXGroup;
+			children = (
+				6021EDBB275127B8683AD5FE34F84FEA /* QJSConfiguration.h */,
+				A718EDEB94ACD7D3CEEF70535AE0271C /* QJSConfiguration.m */,
+				79DC06DF513B55792A130C5B5C7FB62B /* QJSContext.h */,
+				8D4A9431A02FE6D98DE1A1B78B3B7AC6 /* QJSContext.m */,
+				8DC4B4B48D09E7C763185A51CDC3F2B3 /* QJSRuntime.h */,
+				0BF2ACECDB901756444EDFBB14CA23FC /* QJSRuntime.m */,
+			);
+			name = QJSEngine;
+			path = Source/QJSEngine;
+			sourceTree = "<group>";
+		};
+		A7699AEE936288E5176BB8488901E4F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				191020F2DE59DA0D4D81A0C834714E15 /* Pods-QJSEngineExamples */,
+				7A7D7CA4E19D6657E81FA1B6AFA29EDA /* Pods-QJSEngineExamples-QJSEngineExamplesUITests */,
+				CADB326DD7E2D91DD6E47BFA029F9E5C /* Pods-QJSEngineExamplesTests */,
+				AE0F56729481DA880CC420E9A94540A0 /* QJSEngine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7790FA4B9DEDC220BF35BD50C3D1DE15 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A7699AEE936288E5176BB8488901E4F4 /* Products */,
+				E719AD2FD1DAEFCA4FAB48CF8C4A7D8B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E719AD2FD1DAEFCA4FAB48CF8C4A7D8B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A522D8B033BC05A2298B85E971647ED /* Pods-QJSEngineExamples */,
+				495ABDDBDB1724B755F85EFC0E7AF6D9 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests */,
+				1F52DE28A2627AE92B145C8A110E933C /* Pods-QJSEngineExamplesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EFF286B79565086AA93A55CEC0DB716C /* QJSEngine */ = {
+			isa = PBXGroup;
+			children = (
+				27FE59A3821620E15CE38A249B2D33DD /* QJSEngine.h */,
+				60D19053B026AAE229455DFCEC4C6FC3 /* Pod */,
+				8EEB8BF288F0226AF69E98AC18B77E40 /* QJSEngine */,
+				38B76C053DEF9A006E68F6960C7D8BF8 /* QuickJS */,
+				24B3A003CAC02C50E32ED206F774815F /* Support Files */,
+			);
+			name = QJSEngine;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		085FC72C38B496AEE70B26D664B9D8C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A4F441A5C308A57EA13CE479710F3F /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8B919115CED12FD2A06F1069162DE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FD3DCC7FEB81495DB11DB0021960CC /* cutils.h in Headers */,
+				132AA8F308026627E368B6538BFBE823 /* libbf.h in Headers */,
+				EA1344B3AF7CB598535AF4409E29435B /* libregexp.h in Headers */,
+				2706DF9FBB23486C7B12FFD321592883 /* libregexp-opcode.h in Headers */,
+				6F6608E2CE3C25B2D4744C9E738C2833 /* libunicode.h in Headers */,
+				60C1B2F8CFE5A59B6307563951371157 /* libunicode-table.h in Headers */,
+				0C9CCFA75968A4C01D5B161C7B43D1A5 /* list.h in Headers */,
+				4E95E3F6AE1A45C893EED3212E0A9E21 /* QJSConfiguration.h in Headers */,
+				75060E7B18645133AC7159ACBC2C8C09 /* QJSContext.h in Headers */,
+				6A4B9DA04230F40C6949F41B1513D1D5 /* QJSEngine.h in Headers */,
+				4C13A3D04200BF125FD2E45F23AEAF24 /* QJSEngine-umbrella.h in Headers */,
+				C0F8F15DD7DB24BC79919B8D3E4186BC /* QJSRuntime.h in Headers */,
+				380CBD594C3B7C08F2350266EA0357DE /* quickjs.h in Headers */,
+				CF9DDB3B7ED97F7F93E613CFF28959AF /* quickjs-atom.h in Headers */,
+				62C525FC9DC143D639285D62E5A15FF0 /* quickjs-libc.h in Headers */,
+				7129D1C705C87857056D38007C41C1BE /* quickjs-opcode.h in Headers */,
+				1A8E6E1F11D9C55AA700B094E17B5B38 /* unicode_gen_def.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5286B6FF7271EE67EE4B04285D6B3CE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F45687F3767980D558D9B6C2F9DFDC /* Pods-QJSEngineExamples-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90942E11ED8CAE8FF7D3C397068C7AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725564AB312F2A02B358043AEDBE9BED /* Pods-QJSEngineExamplesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D0ADFC45855BA501C341271ACF74FED /* Pods-QJSEngineExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7139C420D373606E3B5CC963BB353669 /* Build configuration list for PBXNativeTarget "Pods-QJSEngineExamples" */;
+			buildPhases = (
+				5286B6FF7271EE67EE4B04285D6B3CE0 /* Headers */,
+				4ED7401E19F3D4022B31FF0461A7678B /* Sources */,
+				E698B3916317098364BA4C7E392AE9BE /* Frameworks */,
+				4D55AFAA80008D49EE7200E547EC0193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FFF745F7DE9834A90DFC6927096E0A /* PBXTargetDependency */,
+			);
+			name = "Pods-QJSEngineExamples";
+			productName = Pods_QJSEngineExamples;
+			productReference = 191020F2DE59DA0D4D81A0C834714E15 /* Pods-QJSEngineExamples */;
+			productType = "com.apple.product-type.framework";
+		};
+		754F71DB061F58A3433758F15971F9A5 /* Pods-QJSEngineExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443CA7A2A8B15F83E44352A063668BCC /* Build configuration list for PBXNativeTarget "Pods-QJSEngineExamplesTests" */;
+			buildPhases = (
+				B90942E11ED8CAE8FF7D3C397068C7AB /* Headers */,
+				00BF87094B295B7154E8C85CF02AD036 /* Sources */,
+				306BCA7E7C020785F72F07FB7307542A /* Frameworks */,
+				BC0F582AD48A48CA85FFA03E8B21461E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				413CD60A7C6958E7DB37FEF83BE0AE04 /* PBXTargetDependency */,
+				CD7C53F37CF895D8CFF054755D6A5030 /* PBXTargetDependency */,
+			);
+			name = "Pods-QJSEngineExamplesTests";
+			productName = Pods_QJSEngineExamplesTests;
+			productReference = CADB326DD7E2D91DD6E47BFA029F9E5C /* Pods-QJSEngineExamplesTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACA3B8ABA42760C954C5370508341B65 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247BEE7CFF32E6D259F3AC79F5900349 /* Build configuration list for PBXNativeTarget "Pods-QJSEngineExamples-QJSEngineExamplesUITests" */;
+			buildPhases = (
+				085FC72C38B496AEE70B26D664B9D8C2 /* Headers */,
+				2A40DEBB319A4113924253949A4FC0DC /* Sources */,
+				1F4D9933FB7836BF9FF862CA280C75B9 /* Frameworks */,
+				547834856B856088955BED09CD66DA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276E95B9F877287CC54F65982DED8DD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-QJSEngineExamples-QJSEngineExamplesUITests";
+			productName = Pods_QJSEngineExamples_QJSEngineExamplesUITests;
+			productReference = 7A7D7CA4E19D6657E81FA1B6AFA29EDA /* Pods-QJSEngineExamples-QJSEngineExamplesUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B36B5AC78ECB1E54543FEF8894F0CBC0 /* QJSEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5689273982C7E624100B8160BBB4F2 /* Build configuration list for PBXNativeTarget "QJSEngine" */;
+			buildPhases = (
+				3A8B919115CED12FD2A06F1069162DE1 /* Headers */,
+				1718779A242AD595AF0425ADEF9C2575 /* Sources */,
+				7225B199CCF930A90C0FA3B83AFE596F /* Frameworks */,
+				C651BF456AE23CEBFCDC89ED4BF093F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QJSEngine;
+			productName = QJSEngine;
+			productReference = AE0F56729481DA880CC420E9A94540A0 /* QJSEngine */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A7699AEE936288E5176BB8488901E4F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0ADFC45855BA501C341271ACF74FED /* Pods-QJSEngineExamples */,
+				ACA3B8ABA42760C954C5370508341B65 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests */,
+				754F71DB061F58A3433758F15971F9A5 /* Pods-QJSEngineExamplesTests */,
+				B36B5AC78ECB1E54543FEF8894F0CBC0 /* QJSEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D55AFAA80008D49EE7200E547EC0193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547834856B856088955BED09CD66DA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0F582AD48A48CA85FFA03E8B21461E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C651BF456AE23CEBFCDC89ED4BF093F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00BF87094B295B7154E8C85CF02AD036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B2262CA597198B149015B84ECA03F2 /* Pods-QJSEngineExamplesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1718779A242AD595AF0425ADEF9C2575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D61CD6FA1A7321D18AB48D80FD750A1 /* cutils.c in Sources */,
+				B100A148B4547CA0817813189C0A9345 /* libbf.c in Sources */,
+				8283F0077F7D4BAB4810FB4390AF297C /* libregexp.c in Sources */,
+				2DD439888B00A2268C19FB20B9E84487 /* libunicode.c in Sources */,
+				6B0696AB0647A89EA5BABD403FD09119 /* QJSConfiguration.m in Sources */,
+				0D0840B54E4D2128E3959B8CFD0283FC /* QJSContext.m in Sources */,
+				DC49DFD91A2DA7DE9942413B1E93E116 /* QJSEngine-dummy.m in Sources */,
+				4C639D6532D65166571BA7F71BF273EC /* QJSRuntime.m in Sources */,
+				F56162A63198E30BCDA302AFB1BF39FC /* quickjs.c in Sources */,
+				47C18CF527ED03D7BF29F11384E5B55A /* quickjs-libc.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A40DEBB319A4113924253949A4FC0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7A1132CE70A9F8B57D34C783082ADF /* Pods-QJSEngineExamples-QJSEngineExamplesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED7401E19F3D4022B31FF0461A7678B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AF0F4A9F6BDA5481FFA1D54F95F766 /* Pods-QJSEngineExamples-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		276E95B9F877287CC54F65982DED8DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QJSEngine;
+			target = B36B5AC78ECB1E54543FEF8894F0CBC0 /* QJSEngine */;
+			targetProxy = 0A20041731DF89A239E034BD128A0BA7 /* PBXContainerItemProxy */;
+		};
+		38FFF745F7DE9834A90DFC6927096E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QJSEngine;
+			target = B36B5AC78ECB1E54543FEF8894F0CBC0 /* QJSEngine */;
+			targetProxy = B30D7A8A34FF2F33E66F830105D9B2DC /* PBXContainerItemProxy */;
+		};
+		413CD60A7C6958E7DB37FEF83BE0AE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QJSEngineExamples";
+			target = 2D0ADFC45855BA501C341271ACF74FED /* Pods-QJSEngineExamples */;
+			targetProxy = EDC1453D34B28EEA9604E5F995DA76E3 /* PBXContainerItemProxy */;
+		};
+		CD7C53F37CF895D8CFF054755D6A5030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QJSEngine;
+			target = B36B5AC78ECB1E54543FEF8894F0CBC0 /* QJSEngine */;
+			targetProxy = 7FA15DEFC7B3FCE8D104D93673CC7B06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075A30C6BB73C264FD088DE878079B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5992F6C5C505A0652CB7784EA2EFFD7 /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-QJSEngineExamples-QJSEngineExamplesUITests/Pods-QJSEngineExamples-QJSEngineExamplesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QJSEngineExamples-QJSEngineExamplesUITests/Pods-QJSEngineExamples-QJSEngineExamplesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34960579885099A0D8A5335284309616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A6147ACC73EA5F596E9456191BD4CA /* Pods-QJSEngineExamples.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-QJSEngineExamples/Pods-QJSEngineExamples-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QJSEngineExamples/Pods-QJSEngineExamples.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		388BB660055B97A60228178CA5B40F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD106AE1F7E0CD34B6C37C2804C9E9C /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-QJSEngineExamples-QJSEngineExamplesUITests/Pods-QJSEngineExamples-QJSEngineExamplesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QJSEngineExamples-QJSEngineExamplesUITests/Pods-QJSEngineExamples-QJSEngineExamplesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		531AB9B51913EE274022D67EB63CB4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5CE0D86FAE393C9A92F802792BE1C2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E22004F06F469E684127A56A987CAA /* Pods-QJSEngineExamples.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-QJSEngineExamples/Pods-QJSEngineExamples-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QJSEngineExamples/Pods-QJSEngineExamples.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AE422518DEFC9C4AE151B333F439F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD95F9BDC4B2DA7B96DE12DC8A3AA97 /* Pods-QJSEngineExamplesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-QJSEngineExamplesTests/Pods-QJSEngineExamplesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QJSEngineExamplesTests/Pods-QJSEngineExamplesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DFE05DA5FBC47EE48DAAE79AC7648FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51577FAFFDF0E277F66C07A44C12DF8D /* QJSEngine.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/QJSEngine/QJSEngine-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/QJSEngine/QJSEngine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QJSEngine/QJSEngine.modulemap";
+				PRODUCT_MODULE_NAME = QJSEngine;
+				PRODUCT_NAME = QJSEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A06A0B8B8C2AC1F57A3C67ACD4FEC0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BC6F9DB19C7E469F9870C8B2866DD3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDF402C15D97E90D73B446D801B159C /* Pods-QJSEngineExamplesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-QJSEngineExamplesTests/Pods-QJSEngineExamplesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QJSEngineExamplesTests/Pods-QJSEngineExamplesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4ADE2AB99C472F2C81EE1FF57F5EF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968C9ED69F8B5F8F2E531C5058C14EDB /* QJSEngine.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/QJSEngine/QJSEngine-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/QJSEngine/QJSEngine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QJSEngine/QJSEngine.modulemap";
+				PRODUCT_MODULE_NAME = QJSEngine;
+				PRODUCT_NAME = QJSEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247BEE7CFF32E6D259F3AC79F5900349 /* Build configuration list for PBXNativeTarget "Pods-QJSEngineExamples-QJSEngineExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388BB660055B97A60228178CA5B40F31 /* Debug */,
+				075A30C6BB73C264FD088DE878079B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443CA7A2A8B15F83E44352A063668BCC /* Build configuration list for PBXNativeTarget "Pods-QJSEngineExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6F9DB19C7E469F9870C8B2866DD3DF /* Debug */,
+				6AE422518DEFC9C4AE151B333F439F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06A0B8B8C2AC1F57A3C67ACD4FEC0B3 /* Debug */,
+				531AB9B51913EE274022D67EB63CB4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7139C420D373606E3B5CC963BB353669 /* Build configuration list for PBXNativeTarget "Pods-QJSEngineExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34960579885099A0D8A5335284309616 /* Debug */,
+				5CE0D86FAE393C9A92F802792BE1C2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5689273982C7E624100B8160BBB4F2 /* Build configuration list for PBXNativeTarget "QJSEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4ADE2AB99C472F2C81EE1FF57F5EF25 /* Debug */,
+				8DFE05DA5FBC47EE48DAAE79AC7648FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,15 @@
+target 'QJSEngineExamples' do
+  use_frameworks!
+  pod 'QJSEngine', :path => './../'
+
+
+  target 'QJSEngineExamplesTests' do
+    inherit! :search_paths
+    pod 'QJSEngine', :path => './../'
+  end
+
+  target 'QJSEngineExamplesUITests' do
+    pod 'QJSEngine', :path => './../'
+  end
+
+end

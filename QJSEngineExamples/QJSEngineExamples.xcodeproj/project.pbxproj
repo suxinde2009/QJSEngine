@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BC07F9FA08785A9A3723555 /* Pods_QJSEngineExamples_QJSEngineExamplesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509FC101F1E22600BFA784AB /* Pods_QJSEngineExamples_QJSEngineExamplesUITests.framework */; };
+		283EB606B8644431998708AC /* Pods_QJSEngineExamplesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B10AF11A4FD807AFD20695 /* Pods_QJSEngineExamplesTests.framework */; };
+		A1147BEF5AE81E67983E2F31 /* Pods_QJSEngineExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2FD573122C0C4183DA5C89 /* Pods_QJSEngineExamples.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DDA3A272D8543E5006A9E46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DDA3A032D8543E4006A9E46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DDA3A0A2D8543E4006A9E46;
+			remoteInfo = QJSEngineExamples;
+		};
+		8DDA3A312D8543E5006A9E46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DDA3A032D8543E4006A9E46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DDA3A0A2D8543E4006A9E46;
+			remoteInfo = QJSEngineExamples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39B10AF11A4FD807AFD20695 /* Pods_QJSEngineExamplesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QJSEngineExamplesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2FB807BCB75E9D2017A9E7 /* Pods-QJSEngineExamplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSEngineExamplesTests.debug.xcconfig"; path = "Target Support Files/Pods-QJSEngineExamplesTests/Pods-QJSEngineExamplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		509FC101F1E22600BFA784AB /* Pods_QJSEngineExamples_QJSEngineExamplesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QJSEngineExamples_QJSEngineExamplesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730B769EF130F0DA2F74868C /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSEngineExamples-QJSEngineExamplesUITests.debug.xcconfig"; path = "Target Support Files/Pods-QJSEngineExamples-QJSEngineExamplesUITests/Pods-QJSEngineExamples-QJSEngineExamplesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DDA3A0B2D8543E4006A9E46 /* QJSEngineExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QJSEngineExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDA3A262D8543E5006A9E46 /* QJSEngineExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJSEngineExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDA3A302D8543E5006A9E46 /* QJSEngineExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJSEngineExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92258D474FC394A2D4361E3D /* Pods-QJSEngineExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSEngineExamples.release.xcconfig"; path = "Target Support Files/Pods-QJSEngineExamples/Pods-QJSEngineExamples.release.xcconfig"; sourceTree = "<group>"; };
+		980961EA32778865648FEEE7 /* Pods-QJSEngineExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSEngineExamples.debug.xcconfig"; path = "Target Support Files/Pods-QJSEngineExamples/Pods-QJSEngineExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		AC2FD573122C0C4183DA5C89 /* Pods_QJSEngineExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QJSEngineExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59460360B10D005F782216F /* Pods-QJSEngineExamplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSEngineExamplesTests.release.xcconfig"; path = "Target Support Files/Pods-QJSEngineExamplesTests/Pods-QJSEngineExamplesTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED40B273A270B5DEA261D72A /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSEngineExamples-QJSEngineExamplesUITests.release.xcconfig"; path = "Target Support Files/Pods-QJSEngineExamples-QJSEngineExamplesUITests/Pods-QJSEngineExamples-QJSEngineExamplesUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8DDA3A382D8543E5006A9E46 /* Exceptions for "QJSEngineExamples" folder in "QJSEngineExamples" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8DDA3A0A2D8543E4006A9E46 /* QJSEngineExamples */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8DDA3A0D2D8543E4006A9E46 /* QJSEngineExamples */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8DDA3A382D8543E5006A9E46 /* Exceptions for "QJSEngineExamples" folder in "QJSEngineExamples" target */,
+			);
+			path = QJSEngineExamples;
+			sourceTree = "<group>";
+		};
+		8DDA3A292D8543E5006A9E46 /* QJSEngineExamplesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QJSEngineExamplesTests;
+			sourceTree = "<group>";
+		};
+		8DDA3A332D8543E5006A9E46 /* QJSEngineExamplesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QJSEngineExamplesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DDA3A082D8543E4006A9E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1147BEF5AE81E67983E2F31 /* Pods_QJSEngineExamples.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDA3A232D8543E5006A9E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283EB606B8644431998708AC /* Pods_QJSEngineExamplesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDA3A2D2D8543E5006A9E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC07F9FA08785A9A3723555 /* Pods_QJSEngineExamples_QJSEngineExamplesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3156D567E20084EA53F93914 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				980961EA32778865648FEEE7 /* Pods-QJSEngineExamples.debug.xcconfig */,
+				92258D474FC394A2D4361E3D /* Pods-QJSEngineExamples.release.xcconfig */,
+				730B769EF130F0DA2F74868C /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.debug.xcconfig */,
+				ED40B273A270B5DEA261D72A /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.release.xcconfig */,
+				4C2FB807BCB75E9D2017A9E7 /* Pods-QJSEngineExamplesTests.debug.xcconfig */,
+				B59460360B10D005F782216F /* Pods-QJSEngineExamplesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DDA3A022D8543E4006A9E46 = {
+			isa = PBXGroup;
+			children = (
+				8DDA3A0D2D8543E4006A9E46 /* QJSEngineExamples */,
+				8DDA3A292D8543E5006A9E46 /* QJSEngineExamplesTests */,
+				8DDA3A332D8543E5006A9E46 /* QJSEngineExamplesUITests */,
+				8DDA3A0C2D8543E4006A9E46 /* Products */,
+				3156D567E20084EA53F93914 /* Pods */,
+				F64474165F84D6CD8A964339 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DDA3A0C2D8543E4006A9E46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DDA3A0B2D8543E4006A9E46 /* QJSEngineExamples.app */,
+				8DDA3A262D8543E5006A9E46 /* QJSEngineExamplesTests.xctest */,
+				8DDA3A302D8543E5006A9E46 /* QJSEngineExamplesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F64474165F84D6CD8A964339 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC2FD573122C0C4183DA5C89 /* Pods_QJSEngineExamples.framework */,
+				509FC101F1E22600BFA784AB /* Pods_QJSEngineExamples_QJSEngineExamplesUITests.framework */,
+				39B10AF11A4FD807AFD20695 /* Pods_QJSEngineExamplesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DDA3A0A2D8543E4006A9E46 /* QJSEngineExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDA3A392D8543E5006A9E46 /* Build configuration list for PBXNativeTarget "QJSEngineExamples" */;
+			buildPhases = (
+				21194F904FF0FF0E6B997910 /* [CP] Check Pods Manifest.lock */,
+				8DDA3A072D8543E4006A9E46 /* Sources */,
+				8DDA3A082D8543E4006A9E46 /* Frameworks */,
+				8DDA3A092D8543E4006A9E46 /* Resources */,
+				2F2CDC182A71D918F6E1C5AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8DDA3A0D2D8543E4006A9E46 /* QJSEngineExamples */,
+			);
+			name = QJSEngineExamples;
+			productName = QJSEngineExamples;
+			productReference = 8DDA3A0B2D8543E4006A9E46 /* QJSEngineExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DDA3A252D8543E5006A9E46 /* QJSEngineExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDA3A3E2D8543E5006A9E46 /* Build configuration list for PBXNativeTarget "QJSEngineExamplesTests" */;
+			buildPhases = (
+				FD71CB486E328D3CA0D61F63 /* [CP] Check Pods Manifest.lock */,
+				8DDA3A222D8543E5006A9E46 /* Sources */,
+				8DDA3A232D8543E5006A9E46 /* Frameworks */,
+				8DDA3A242D8543E5006A9E46 /* Resources */,
+				32E9920FCA8842DC8E70D6BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DDA3A282D8543E5006A9E46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8DDA3A292D8543E5006A9E46 /* QJSEngineExamplesTests */,
+			);
+			name = QJSEngineExamplesTests;
+			productName = QJSEngineExamplesTests;
+			productReference = 8DDA3A262D8543E5006A9E46 /* QJSEngineExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DDA3A2F2D8543E5006A9E46 /* QJSEngineExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDA3A412D8543E5006A9E46 /* Build configuration list for PBXNativeTarget "QJSEngineExamplesUITests" */;
+			buildPhases = (
+				D91A6038AD53C233D54E3453 /* [CP] Check Pods Manifest.lock */,
+				8DDA3A2C2D8543E5006A9E46 /* Sources */,
+				8DDA3A2D2D8543E5006A9E46 /* Frameworks */,
+				8DDA3A2E2D8543E5006A9E46 /* Resources */,
+				0D2F2D34C9DD88720ED988E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DDA3A322D8543E5006A9E46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8DDA3A332D8543E5006A9E46 /* QJSEngineExamplesUITests */,
+			);
+			name = QJSEngineExamplesUITests;
+			productName = QJSEngineExamplesUITests;
+			productReference = 8DDA3A302D8543E5006A9E46 /* QJSEngineExamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DDA3A032D8543E4006A9E46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8DDA3A0A2D8543E4006A9E46 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8DDA3A252D8543E5006A9E46 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8DDA3A0A2D8543E4006A9E46;
+					};
+					8DDA3A2F2D8543E5006A9E46 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8DDA3A0A2D8543E4006A9E46;
+					};
+				};
+			};
+			buildConfigurationList = 8DDA3A062D8543E4006A9E46 /* Build configuration list for PBXProject "QJSEngineExamples" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DDA3A022D8543E4006A9E46;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8DDA3A0C2D8543E4006A9E46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DDA3A0A2D8543E4006A9E46 /* QJSEngineExamples */,
+				8DDA3A252D8543E5006A9E46 /* QJSEngineExamplesTests */,
+				8DDA3A2F2D8543E5006A9E46 /* QJSEngineExamplesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DDA3A092D8543E4006A9E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDA3A242D8543E5006A9E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDA3A2E2D8543E5006A9E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2F2D34C9DD88720ED988E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QJSEngineExamples-QJSEngineExamplesUITests/Pods-QJSEngineExamples-QJSEngineExamplesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QJSEngineExamples-QJSEngineExamplesUITests/Pods-QJSEngineExamples-QJSEngineExamplesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QJSEngineExamples-QJSEngineExamplesUITests/Pods-QJSEngineExamples-QJSEngineExamplesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21194F904FF0FF0E6B997910 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QJSEngineExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F2CDC182A71D918F6E1C5AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QJSEngineExamples/Pods-QJSEngineExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QJSEngineExamples/Pods-QJSEngineExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QJSEngineExamples/Pods-QJSEngineExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32E9920FCA8842DC8E70D6BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QJSEngineExamplesTests/Pods-QJSEngineExamplesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QJSEngineExamplesTests/Pods-QJSEngineExamplesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QJSEngineExamplesTests/Pods-QJSEngineExamplesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91A6038AD53C233D54E3453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QJSEngineExamples-QJSEngineExamplesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD71CB486E328D3CA0D61F63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QJSEngineExamplesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DDA3A072D8543E4006A9E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDA3A222D8543E5006A9E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDA3A2C2D8543E5006A9E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DDA3A282D8543E5006A9E46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DDA3A0A2D8543E4006A9E46 /* QJSEngineExamples */;
+			targetProxy = 8DDA3A272D8543E5006A9E46 /* PBXContainerItemProxy */;
+		};
+		8DDA3A322D8543E5006A9E46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DDA3A0A2D8543E4006A9E46 /* QJSEngineExamples */;
+			targetProxy = 8DDA3A312D8543E5006A9E46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DDA3A3A2D8543E5006A9E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980961EA32778865648FEEE7 /* Pods-QJSEngineExamples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QJSEngineExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.QJSEngineExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DDA3A3B2D8543E5006A9E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92258D474FC394A2D4361E3D /* Pods-QJSEngineExamples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QJSEngineExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.QJSEngineExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DDA3A3C2D8543E5006A9E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DDA3A3D2D8543E5006A9E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DDA3A3F2D8543E5006A9E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2FB807BCB75E9D2017A9E7 /* Pods-QJSEngineExamplesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.QJSEngineExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJSEngineExamples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QJSEngineExamples";
+			};
+			name = Debug;
+		};
+		8DDA3A402D8543E5006A9E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59460360B10D005F782216F /* Pods-QJSEngineExamplesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.QJSEngineExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJSEngineExamples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QJSEngineExamples";
+			};
+			name = Release;
+		};
+		8DDA3A422D8543E5006A9E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730B769EF130F0DA2F74868C /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.QJSEngineExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QJSEngineExamples;
+			};
+			name = Debug;
+		};
+		8DDA3A432D8543E5006A9E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED40B273A270B5DEA261D72A /* Pods-QJSEngineExamples-QJSEngineExamplesUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.QJSEngineExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QJSEngineExamples;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DDA3A062D8543E4006A9E46 /* Build configuration list for PBXProject "QJSEngineExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDA3A3C2D8543E5006A9E46 /* Debug */,
+				8DDA3A3D2D8543E5006A9E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DDA3A392D8543E5006A9E46 /* Build configuration list for PBXNativeTarget "QJSEngineExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDA3A3A2D8543E5006A9E46 /* Debug */,
+				8DDA3A3B2D8543E5006A9E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DDA3A3E2D8543E5006A9E46 /* Build configuration list for PBXNativeTarget "QJSEngineExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDA3A3F2D8543E5006A9E46 /* Debug */,
+				8DDA3A402D8543E5006A9E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DDA3A412D8543E5006A9E46 /* Build configuration list for PBXNativeTarget "QJSEngineExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDA3A422D8543E5006A9E46 /* Debug */,
+				8DDA3A432D8543E5006A9E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DDA3A032D8543E4006A9E46 /* Project object */;
+}

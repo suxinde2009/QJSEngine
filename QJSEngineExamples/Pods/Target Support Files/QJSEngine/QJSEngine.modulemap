@@ -1,0 +1,6 @@
+framework module QJSEngine {
+  umbrella header "QJSEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}
